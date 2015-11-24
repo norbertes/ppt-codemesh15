@@ -41,23 +41,112 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1>Elixir in Production</h1>
+					<h3>by Jamie Winsor</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Summary by <a href="https://klibert.pl">Piotr Klibert</a> </small>
 					</p>
 				</section>
 
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
+				<section>
+					<section><h1>What is Elixir?</h1></section>
+					<section>
+                        <h3>What is Erlang?</h3>
+                        <p style="text-align: left;">
+						    - designed for <b>fault tolerance</b> <br/>
+						    - <b>distributed computing</b> support <br/>
+                            - multi-threaded/multi-core concurrency <br/>
+                            - code hot-swapping <br/>
+                            - integrated release workflow (trivially deployable)<br/>
+					    </p>
+                    </section>
+                    <section>
+                        <h3>Elixir is all this and more!</h3>
+                        <p style="text-align: left;">
+						    - great, mature tooling: Mix, Hex<br/>
+						    - simple, friendly syntax <br/>
+                            - polymorphism via protocols <br/>
+                            - cleaned up standard library <br/>
+                            - many interesting libraries and frameworks to
+						    choose from
+					    </p>
+                    </section>
 				</section>
+
+				<section>
+                    <section><h1>Is Elixir production-ready?</h1></section>
+					<section>
+                        <h3>Yes!</h3>
+                        <p style="text-align: left;">
+                            - Erlang and Erlang VM are ~30 years old <br/>
+                            - a mighty VM forged in the heat of battle,<br/> <!-- you know, like Xena :) -->
+                            &nbsp;&nbsp; rivaling JVM and CLR with ease <br/>
+                            - same goes for most libraries <br/>
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Also...</h3>
+                        <p style="text-align: left">
+                            - stability, "nine nines" uptime <br/>
+                            - speed, compared to non-jitted Python or Ruby <br/>
+                            - built-in distribution and scalability support <br />
+                            - built-in production-grade logging <br/>
+                            - production-tuned tools like trace, profiler, process manager...
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Last but not least</h3>
+                        <p style="text-align: left">
+                            - deploying releases with 0 downtime <br/>
+                            - even across clusters and multiple nodes <br/>
+                            - which are discovered and connected automatically,
+                            BTW <br/>
+                            - deployment is as easy as with Go: just copy an <br/>
+                            &nbsp;&nbsp; executable where you want it, done
+                            <br/>
+                            - works well with Jenkins, AWS and other popular
+                            solutions <br/>
+                        </p>
+                    </section>
+
+				</section>
+
+                <section>
+                    <section> <h1>Problems?</h1> </section>
+                    <section>
+                        <h3>Not really, but...</h3>
+                        <p style="text-align: left">
+                            - much less libraries to choose from compared to Python <br/>
+                            &nbsp;&nbsp;(but it's easy to call Python code directly with ErlPort)<br/>
+                            - actor-based, shared-nothing concurrency is unfamiliar <br/>
+                            - heavily biased towards Functional Programming <br/>
+                            - as clusters grow in size, they need managing <br/>
+                            - may require tuning VM for optimal performace <br/>
+                        </p>
+                    </section>
+                </section>
+
+                <section>
+                    <h3>So?</h3>
+                    <p style="text-align: left">
+                        - your next project should be written in Elixir! <br/>
+                        - especially if it's a DB backed API server <br/>
+                        - with Phoenix, even standard dynamic pages are feasible <br/>
+                        - it's even quite alright for writing quick scripts <br/>
+                        - in general all the backend infrastructre may be written <br/>
+                        &nbsp;&nbsp; in Elixir without any problems<br/>
+                        - let's go do some coding in Elixir!
+                    </p>
+                </section>
+
+                <section>
+                    <h1>Links</h1>
+                    <p><a href="http://www.codemesh.io/static/upload/media/1446809436837643jamiewinsorcodemesh2015.pdf">Original slides</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=_Fb2lQOKKVQ&feature=youtu.be">Talk video</a></p>
+                </section>
+
 
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
