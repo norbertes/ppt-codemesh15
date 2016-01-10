@@ -21,7 +21,7 @@ read the paper history directly.
 It doesn't metter what's the topic, always just a few % of people will try to
 get their own results, get a little bit deeper knowledge of particular thing. 
 We like to blindly follow trends without understanding if it's a good way 
-for us or the project.
+for us or the project. 
 
 If we know one thing which will solve the problem, we will use it. Sometimes
  we have feeling that there might be better way. Why don't do even 5 minutes
