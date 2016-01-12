@@ -4,7 +4,6 @@ About:
 - Architecture of Facebook
 - Performance problem (2013)
 - Journey of Haskell inside Facebook
-- 'Haskell is ready for industry'
 - Haxl is very easy to use Haskell lib (2k stars @ gh)
 
 
@@ -15,4 +14,3 @@ and grew dozens of Haskell developers, all without missing a beat.
 
 Come learn what blood, sweat, and tears were needed to make this Haskell success story.
 
-TIOBE: Haskell from 9x to 3x place.
