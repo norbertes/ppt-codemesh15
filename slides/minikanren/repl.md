@@ -29,7 +29,9 @@ następnie 'wyczyści program' i pokaże wynik dla 2 części
        ((== 6 x)))
 
 ###
-W rachunku lambda każde wyrażenie określa funkcję jednoargumentową. Z kolei argumentem tej funkcji jest również funkcja jednoargumentowa, wartością funkcji jest znów funkcja jednoargumentowa
+W rachunku lambda każde wyrażenie określa funkcję jednoargumentową. 
+Z kolei argumentem tej funkcji jest również funkcja jednoargumentowa, 
+wartością funkcji jest znów funkcja jednoargumentowa
 
 (define fn
   (lambda (term)
@@ -39,6 +41,7 @@ W rachunku lambda każde wyrażenie określa funkcję jednoargumentową. Z kolei
 )
 
 (fn `(lambda (z) z))
+
 define - tworzy funkcję
 fresh - definiuje/czyści wartość zmiennej
 ` - tworzy listę z wyrażenia (interpolacja)

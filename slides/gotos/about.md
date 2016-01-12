@@ -1,9 +1,9 @@
 #### Harmful GOTOs, Premature Optimizations and Programming Myths are The Root of All Evil
 
-Flat earth myth - do we have familiar myths in CS?
-History of programming (Logic programming, Big O, RSA) 
-Many cites of newspapers from '70 in depth focusing on topics which we all know
-How time changed our perspective on learning things  
+1. Flat earth myth - do we have familiar myths in CS?
+1. History of programming (Logic programming, Big O, RSA) 
+1. Many cites of newspapers from '70 in depth focusing on topics which we all know
+1. How time changed our perspective on learning things  
 
 Note: 
 I will focus mostly on the first one,
